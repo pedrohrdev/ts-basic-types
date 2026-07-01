@@ -11,3 +11,5 @@ studying (boolean)
 let userName: string = "Pedro";
 let age: number = 16;
 let studying: boolean = true
+
+console.log(userName, age, studying)
