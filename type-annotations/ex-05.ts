@@ -7,13 +7,12 @@ Create a variable named `usuario` in which all fields must have types.
 const usuario: {
     username: string;
     age: number;
-    isProgrammer: boolean;
+    isProgrammer: boolean
 } = {
     username: "Pedro",
     age: 16,
     isProgrammer: true
 }
-
 
 
 console.log(usuario)
