@@ -1,0 +1,5 @@
+Today I learned about type annotations—a simple way
+to declare the type of a variable, parameter, or
+function return value, making the code cleaner and 
+safer—and then I did 10 exercises to reinforce what
+I learned; thank God, it was a productive study session.
