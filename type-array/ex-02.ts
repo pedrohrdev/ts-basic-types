@@ -21,6 +21,8 @@ type Movie = {
     watched: boolean
 }
 
+let watchedCount = 0;
+
 let movies: Movie[] = [
     {
         title: "Spider-Man: No Way Home",
@@ -49,7 +51,12 @@ console.log('============================')
 
 for(const movieWatched of movies) {
     if(movieWatched.watched === true) {
-        console.log(`you watched: ${movieWatched.title}`)
+        console.log(`you watched: ${movieWatched.title}`);
+        watchedCount++
     }    
 }
+
+console.log('============================')
+
+console.log(`You've watched ${watchedCount} movies`)
 
