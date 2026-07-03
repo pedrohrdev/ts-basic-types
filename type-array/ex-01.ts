@@ -15,13 +15,13 @@ display the array in the console;
 add one more product using `push()`.
 */
 
-let products: {
-
-    name: string;
-    price: number;
+type Product = {
+    name: string, 
+    price: number,
     stock: boolean
+}
 
-}[] = [
+let products: Product[] = [
     {
         name: "Monster mango",
         price: 9.89,
