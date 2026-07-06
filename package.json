@@ -1,0 +1,25 @@
+{
+  "name": "ts-basic-types",
+  "version": "1.0.0",
+  "description": "Learning repository for TypeScript basic types.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrohrdev/ts-basic-types.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/pedrohrdev/ts-basic-types/issues"
+  },
+  "homepage": "https://github.com/pedrohrdev/ts-basic-types#readme",
+  "devDependencies": {
+    "tsx": "^4.23.0",
+    "typescript": "^6.0.3"
+  }
+}
