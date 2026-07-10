@@ -77,6 +77,12 @@ Plano de prática: vou resolver 50 exercícios cobrindo os conceitos fundamentai
 - Criar testes para cada exercício quando possível;
 - Documentar a solução de cada exercício em `exercises/solved` com explicações.
 
+Níveis de dificuldade:
+- 🟢 **Nível 1 — Aquecimento** (15 exercícios)
+- 🟡 **Nível 2 — Misturando conceitos** (20 exercícios)
+- 🟠 **Nível 3 — Exercícios de lógica com TS** (15 exercícios)
+- 🔴 **Nível 4 — Mini desafios parecidos com código de empresa** (10 exercícios)
+
 Sugestão de divisão (exemplo):
 - 10 exercícios sobre tipos primitivos e inferência
 - 10 sobre arrays, tuples e enums
