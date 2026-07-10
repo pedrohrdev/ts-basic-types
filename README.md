@@ -19,7 +19,7 @@ Sumário
 
 Sobre
 -----
-Este projeto reúne anotações e exemplos para aprender e revisar os tipos básicos do TypeScript: tipos primitivos, arrays, tuples, enums, any/unknown, union/intersection, type aliases, interfaces, funções tipadas, generics básicos e tipos utilitários.
+Este projeto reúne anotações e exemplos para aprender e revisar os tipos básicos do TypeScript: tipos primitivos, arrays, tuples, enums, any/unknown, union/intersection e type aliases.
 
 Conteúdo do repositório
 -----------------------
