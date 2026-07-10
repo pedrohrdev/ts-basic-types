@@ -11,7 +11,7 @@ Sumário
 - [Requisitos](#requisitos)
 - [Instalação e uso](#instala%C3%A7%C3%A3o-e-uso)
 - [Exemplos rápidos](#exemplos-r%C3%A1pidos)
-- [Prática: 60 exercícios](#pr%C3%A1tica-60-exerc%C3%ADcios)
+- [Prática: 50 exercícios](#pr%C3%A1tica-50-exerc%C3%ADcios)
 - [Roadmap](#roadmap)
 - [Contribuições](#contribui%C3%A7%C3%B5es)
 - [Licença](#licen%C3%A7a)
@@ -70,9 +70,9 @@ function greet(name: string): string {
 }
 ```
 
-Prática: 60 exercícios
+Prática: 50 exercícios
 ---------------------
-Plano de prática: vou resolver 60 exercícios cobrindo tudo que está neste repositório — desde tipos primitivos até generics e tipos utilitários. O objetivo é:
+Plano de prática: vou resolver 50 exercícios cobrindo os conceitos fundamentais deste repositório. O objetivo é:
 - Fixar conceitos com pequenos desafios práticos;
 - Criar testes para cada exercício quando possível;
 - Documentar a solução de cada exercício em `exercises/solved` com explicações.
@@ -82,13 +82,12 @@ Sugestão de divisão (exemplo):
 - 10 sobre arrays, tuples e enums
 - 10 sobre funções e assinaturas
 - 10 sobre union, intersection e type guards
-- 10 sobre interfaces e type aliases
-- 10 sobre generics e utilitários
+- 10 sobre type aliases
 
 Roadmap
 -------
 - [x] Estruturar exemplos básicos em `src/`
-- [ ] Criar a lista dos 60 exercícios em `exercises/README.md`
+- [ ] Criar a lista dos 50 exercícios em `exercises/README.md`
 - [ ] Implementar soluções e testes para os exercícios
 - [ ] Criar material explicativo/resumo para cada tópico
 
