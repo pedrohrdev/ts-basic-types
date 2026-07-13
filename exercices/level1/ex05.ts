@@ -1,29 +1,38 @@
 /*
-Exercise 5
+Exercise 5 — Type Assertions + Objects
 
-You received data from an API:
+You received an object from the backend:
 
 let data: unknown = {
-  id: 1,
-  title: "Learn TypeScript",
-  completed: false
+name: "Pedro",
+age: 16,
 };
-
 Do the following:
-
-1. Use a type assertion (as) to treat `data` as an object with:
-   - id: number
-   - title: string
-   - completed: boolean
-
-2. Print:
-
-Task: Learn TypeScript
-Completed: No
-
-Rules:
+Use a type assertion to treat `data` as an object of type:
+type User = {
+name: string; 
+age: number;
+};
+Print exactly this to the console:
+Name: Pedro
+Age: 16
+Rules
 ❌ Do not use `any`.
 ✅ Use `as`.
 ✅ Do not change the original type of `data`.
+✅ Create the `User` type.
 */
 
+type User = {
+  name: string;
+  age: number
+};
+
+let data: unknown = {
+  name: "Pedro",
+  age: 16
+};
+
+const user = data as User;
+
+console.log(`Name: ${user.name} \n Age: ${user.age}`)
